@@ -1,9 +1,8 @@
-{
+module.exports = {
   "extends": "airbnb-base",
   "env": {
     "es6": true,
-    "node": true,
-    "jest": true
+    "jest": true,
   },
   "rules": {
     "space-in-parens": [ "error", "always" ],
@@ -15,6 +14,6 @@
     "no-underscore-dangle": [ "error", { "allowAfterThis": true, "allowAfterSuper": true } ],
     "no-plusplus": "off",
     "no-lonely-if": "off",
-    "max-len": "off"
-  }
-}
+    "max-len": "off",
+  },
+};
