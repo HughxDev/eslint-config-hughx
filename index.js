@@ -11,7 +11,7 @@ module.exports = {
     "quotes": "off",
     "quote-props": [ "error", "always" ],
     "class-methods-use-this": "off",
-    "no-underscore-dangle": [ "error", { "allowAfterThis": true, "allowAfterSuper": true } ],
+    "no-underscore-dangle": "off",
     "no-plusplus": "off",
     "no-lonely-if": "off",
     "max-len": "off",
