@@ -15,5 +15,6 @@ module.exports = {
     "no-plusplus": "off",
     "no-lonely-if": "off",
     "max-len": "off",
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
   },
 };
