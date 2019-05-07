@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Hugh Guiney",
   "license": "BlueOak-1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hguiney/eslint-config-hughx.git"
+  },
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-config-airbnb-base": "^13.1.0",
