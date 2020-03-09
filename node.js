@@ -1,5 +1,7 @@
 module.exports = {
-  "extends": "eslint-config-hughx",
+  "extends": [
+    "hughx",
+  ],
   "env": {
     "node": true,
   },
