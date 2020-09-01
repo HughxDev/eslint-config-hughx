@@ -12,4 +12,7 @@ module.exports = {
       "jsx": true,
     },
   },
+  "rules": {
+    "react/jsx-curly-spacing": [2, { "when": "always", "children": true }],
+  },
 };
