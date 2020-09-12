@@ -11,11 +11,11 @@
 ## Installation
 
 ```shell
-yarn add -D eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
+yarn add -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
 ```
 OR
 ```shell
-npm install -D eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
+npm install -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
 ```
 
 ## Usage
