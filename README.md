@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/hguiney/eslint-config-hughx/master/eslint-config-hughx.svg?sanitize=true" width="150" alt="logo" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/HughxDev/eslint-config-hughx/master/eslint-config-hughx.svg?sanitize=true" width="150" alt="logo" /></p>
 
 <h1 align="center">eslint-config-hughx</h1>
 

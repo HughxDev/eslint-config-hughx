@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-hughx",
   "description": "Provides hughx’s JavaScript conventions as .eslintrc shared configs.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "author": "Hugh Guiney",
   "license": "BlueOak-1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hguiney/eslint-config-hughx.git"
+    "url": "https://github.com/HughxDev/eslint-config-hughx.git"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
