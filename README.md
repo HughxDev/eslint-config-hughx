@@ -6,17 +6,31 @@
 
 <p align="center"><a href="https://www.npmjs.com/package/eslint-config-hughx"><img src="https://img.shields.io/npm/dm/eslint-config-hughx.svg" alt="Downloads per month (NPM)"></a></p>
 
----
+----
 
 ## Installation
 
+### npm versions 7 and above
+
 ```shell
-yarn add -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
+npm install -D eslint-config-hughx
 ```
-OR
+
+### yarn and older npm
+
+You will have to install `peerDependencies` manually:
+
 ```shell
 npm install -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
 ```
+OR
+```shell
+yarn add -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
+```
+
+### React projects
+
+Same as above, but you will also need to add `eslint-plugin-react-hooks` as well.
 
 ## Usage
 
@@ -31,7 +45,27 @@ module.exports = {
 }
 ```
 
+Eslint-config-hughx defaults to the latest version of JavaScript/ECMAScript at the time of release. If your transpiler isn’t set up for this (or you don’t use one), then you should override both `env.es*` and `parserOptions.ecmaVersion`, e.g.
+
+```js
+// Downgrading from ES2021 to ES6
+module.exports = {
+  "extends": [
+    "hughx",
+  ],
+  "env": {
+    "es2021": false,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+};
+```
+
 ## Environment-specific Configs
+
+You can extend from one of the following to bring in sensible defaults for different use cases:
 
 - `hughx/react`
 - `hughx/node`

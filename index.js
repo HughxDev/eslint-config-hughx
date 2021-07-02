@@ -3,11 +3,11 @@ module.exports = {
     "airbnb-base",
   ],
   "env": {
-    "es6": true,
+    "es2021": true,
     "jest": true,
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2021,
   },
   "rules": {
     "space-in-parens": ["error", "always"],

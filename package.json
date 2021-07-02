@@ -10,17 +10,60 @@
     "url": "https://github.com/HughxDev/eslint-config-hughx.git"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1"
+    "eslint": ">= 6.8.0",
+    "eslint-config-airbnb-base": ">= 14.0.0",
+    "eslint-plugin-import": ">= 2.20.1",
+    "eslint-plugin-react-hooks": ">= 4.2.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "eslint": "latest",
     "eslint-config-airbnb-base": "latest",
-    "eslint-plugin-import": "latest"
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "npm-minify": "latest"
+  },
+  "scripts": {
+    "minify": "./node_modules/.bin/npm-minify",
+    "patch": "yarn version --patch && yarn minify",
+    "release": "cd dist/ && npm publish",
+    "patch-release": "yarn patch && yarn release"
   },
   "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style guide",
+    "style linter",
+    "react",
+    "verify"
   ]
 }

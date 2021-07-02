@@ -2,6 +2,7 @@ module.exports = {
   "extends": [
     "hughx",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
   ],
   "env": {
     "browser": true,
