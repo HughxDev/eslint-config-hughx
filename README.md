@@ -12,7 +12,7 @@
 
 ### npm versions 7 and above
 
-```shell
+```zsh
 npm install -D eslint-config-hughx
 ```
 
@@ -20,17 +20,28 @@ npm install -D eslint-config-hughx
 
 You will have to install `peerDependencies` manually:
 
-```shell
-npm install -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
-```
-OR
-```shell
-yarn add -D eslint eslint-config-hughx eslint-config-airbnb-base eslint-plugin-import
+```zsh
+# npm install -D
+yarn add -D \
+  eslint \
+  eslint-config-airbnb-base \
+  eslint-config-hughx \
+  eslint-plugin-import
 ```
 
 ### React projects
 
-Same as above, but you will also need to add `eslint-plugin-react-hooks` as well.
+```zsh
+# npm install -D
+yarn add -D \
+  eslint \
+  eslint-config-airbnb-base \
+  eslint-config-hughx \
+  eslint-plugin-import \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks
+```
 
 ## Usage
 
