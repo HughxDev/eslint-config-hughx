@@ -2,11 +2,13 @@
 
 <h1 align="center">eslint-config-hughx</h1>
 
-<p align="center">Provides <a href="https://hughx.dev/from-github-elint-config-hughx">hughx</a>’s JavaScript conventions as <code>.eslintrc</code> shared configs. Emphasizes readability and ease of writing.</p>
+<p align="center">Provides <a href="https://hughx.dev/from-github-elint-config-hughx">hughx</a>’s JavaScript conventions as <code>.eslintrc</code> shared configs.<br />Emphasizes readability and ease of writing.</p>
 
 <p align="center"><a href="https://www.npmjs.com/package/eslint-config-hughx"><img src="https://img.shields.io/npm/dm/eslint-config-hughx.svg" alt="Downloads per month (NPM)"></a></p>
 
 ----
+
+ℹ️ For TypeScript support, use [`eslint-config-hughx-ts`](https://github.com/HughxDev/eslint-config-hughx-ts) instead.
 
 ## Installation
 
