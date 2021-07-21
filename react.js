@@ -16,4 +16,9 @@ module.exports = {
   "rules": {
     "react/jsx-curly-spacing": [2, { "when": "always", "children": true }],
   },
+  "settings": {
+    "react": {
+      "version": "detect",
+    },
+  },
 };
