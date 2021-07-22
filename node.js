@@ -1,8 +1,6 @@
 module.exports = {
   "extends": [
-    "hughx",
+    "./index",
+    "./base/node",
   ],
-  "env": {
-    "node": true,
-  },
 };

@@ -1,16 +1,6 @@
 module.exports = {
   "extends": [
-    "hughx",
+    "./index",
+    "./base/web-components",
   ],
-  "env": {
-    "browser": true,
-  },
-  "parserOptions": {
-    "sourceType": "module",
-  },
-  "rules": {
-    "import/extensions": [
-      "error", "always",
-    ],
-  },
 };
