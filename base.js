@@ -6,6 +6,7 @@ module.exports = {
   "parserOptions": {
     "ecmaVersion": 2021,
   },
+  "plugins": ["import"],
   "rules": {
     'space-in-parens': ['error', 'always'],
     'no-console': 'off',
