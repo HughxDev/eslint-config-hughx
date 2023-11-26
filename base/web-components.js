@@ -1,4 +1,7 @@
 module.exports = {
+  "extends": [
+    "plugin:wc/recommended",
+  ],
   "env": {
     "browser": true,
   },
